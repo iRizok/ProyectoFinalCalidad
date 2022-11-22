@@ -5,7 +5,6 @@ import tkinter.scrolledtext as tkst
 from PIL import Image, ImageTk
 from urllib.request import urlopen
 from io import BytesIO
-from tkcalendar import *
 
 API_KEY = '0v2IzxVpfiOGIzKUsnQnmt50RsrdMw4E4HqbkYrV'
 root = tk.Tk()
@@ -65,12 +64,6 @@ def displayImage(url):
     label = tk.Label(root, image=photo, width=600, height=400)
     label.image = photo
     label.pack()
-
-
-def displayCalendar():
-    cal = DateEntry(root, selectmode='day')
-    cal.pack(pady=20)
-    return cal
 
 
 def displayLabels(author, title, description):
