@@ -7,7 +7,7 @@ from mock import patch, MagicMock
 parameters = {
         'date': {'2008-11-15'},
         'hd': 'True',
-        'api_key': '0v2IzxVpfiOGIzKUsnQnmt50RsrdMw4E4HqbkYrV'
+        'api_key': 'private'
     }
 
 data = proyecto.getData(parameters)
