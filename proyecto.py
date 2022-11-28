@@ -6,7 +6,7 @@ from PIL import Image, ImageTk
 from urllib.request import urlopen
 from io import BytesIO
 
-API_KEY = '0v2IzxVpfiOGIzKUsnQnmt50RsrdMw4E4HqbkYrV'
+API_KEY = 'private'
 root = tk.Tk()
 root.title("NASA photo of the day")
 root.geometry("900x800")
